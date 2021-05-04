@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageActivity">
+
+
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar_message"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle"
+            android:elevation="5dp"
+            android:background="@color/pastelgreen">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/profile_image_toolbar_message"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:id="@+id/username_ontoolbar_message"
+                android:textColor="@color/darkgreen"
+                android:textStyle="bold"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_messages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/card"
+        android:layout_below="@id/bar_layout" />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/card"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/vie_bg"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/camera_gallery_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="14dp"
+                android:background="@drawable/camera"
+                android:enabled="false" />
+
+            <EditText
+                android:id="@+id/edit_message_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_bg"
+                android:hint="   Message..."
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/send_messsage_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="14dp"
+                android:background="@drawable/ic_send"
+                android:enabled="false" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

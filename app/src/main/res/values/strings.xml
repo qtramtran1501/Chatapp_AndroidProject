@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">2LeafChat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image">image</string>
+    <string name="button">button</string>
+    <string name="join_with_us">Join with us</string>
+    <string name="logo">logo</string>
+    <string name="string_logo" />
+</resources>

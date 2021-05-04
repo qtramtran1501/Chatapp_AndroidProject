@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.2LeafChat" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/darkgreen</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorAccent">#e9a37f</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MenuStyle" parent="ThemeOverlay.AppCompat.Dark">
+
+        <item name="android:textColor">@color/darkgreen</item>
+        <item name="android:background">@color/white</item>
+
+
+    </style>
+
+
+</resources>

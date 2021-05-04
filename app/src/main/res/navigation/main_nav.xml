@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/chatsFragment">
+
+    <fragment
+        android:id="@+id/chatsFragment"
+        android:name="com.example.my2leafchat.Fragments.ChatsFragment"
+        android:label="fragment_chats"
+        tools:layout="@layout/fragment_chats" />
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.example.my2leafchat.Fragments.UsersFragment"
+        android:label="fragment_users"
+        tools:layout="@layout/fragment_users" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.my2leafchat.Fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

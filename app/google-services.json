@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1089712889399",
+    "firebase_url": "https://leafchat-9b078-default-rtdb.firebaseio.com",
+    "project_id": "leafchat-9b078",
+    "storage_bucket": "leafchat-9b078.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089712889399:android:9a949c303f221b6c4169b2",
+        "android_client_info": {
+          "package_name": "com.example.my2leafchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089712889399-rc3m23o9helipj94orpius0lvii9svk1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.my2leafchat",
+            "certificate_hash": "4d7d1cc35b66bcb59e569a981d667d621ffcdadc"
+          }
+        },
+        {
+          "client_id": "1089712889399-3likblqgj70iqenh1guoh9i63jnbvioi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0CHUuGzuAQbii3mgg5SvqJF6x_ikHzBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089712889399-3likblqgj70iqenh1guoh9i63jnbvioi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
